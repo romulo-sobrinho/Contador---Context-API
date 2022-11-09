@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ccc;
+}
+
+.headerCount {
+  font-size: 2rem;
+  font-weight: bold;
+  color: green;
+}
