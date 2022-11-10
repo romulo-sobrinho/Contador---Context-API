@@ -5,7 +5,7 @@
 <hr>
 
 
-<h1 align="center">Lista de Tarefas - React - To Do List</h1>
+<h1 align="center">Contador - React</h1>
 <br>
 
 
