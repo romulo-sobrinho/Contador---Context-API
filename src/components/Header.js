@@ -1,6 +1,6 @@
 import "./Header.css"
 import { useContext } from 'react'
-import { ContextContador } from "./ContextContador"
+import ContextContador from "./ContextContador"
 
 const Header = (props) => {
 

@@ -1,16 +1,18 @@
 import './App.css';
 import Contador from './components/Contador';
 import Header from './components/Header';
-import { ContadorProvider } from './components/ContextContador';
+import ContextContador from './components/ContextContador';
+import { useState } from "react"
 
 function App() {
 
+  const [ count, setCount ] = useState(0)
   return (
     <div className="App">
-      <ContadorProvider>
+      <ContextContador.Provider value={[count, setCount]}>
         <Header></Header>
         <Contador></Contador>
-      </ContadorProvider>
+      </ContextContador.Provider>
     </div>
   );
 }
